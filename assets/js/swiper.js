@@ -1,3 +1,17 @@
+const mainDesktopSwiper = new Swiper(".mainDesktopSwiper", {
+  slidesPerView: 2.4,
+  spaceBetween: 12,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination-main",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next-main",
+    prevEl: ".swiper-button-prev-main",
+  },
+});
+
 const mainSwiper = new Swiper(".mainSwiper", {
   slidesPerView: 1.2,
   spaceBetween: 12,
