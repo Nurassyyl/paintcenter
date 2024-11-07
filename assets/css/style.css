@@ -205,6 +205,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 124px 0 164px;
+  overflow: hidden;
 }
 
 .main-desktop {
@@ -213,8 +214,13 @@ main {
   gap: 105px;
 }
 
-.main-desktop-content {
+.main-desktop-text {
+  margin-left: auto;
   max-width: 770px;
+}
+
+.main-desktop-content {
+  overflow: hidden;
 }
 
 .main-desktop-content__title {
@@ -250,12 +256,18 @@ main {
   font-weight: 400;
   line-height: 40px;
   color: #F7F7F7;
+  margin-bottom: 83px;
+  max-width: 474px;
 }
 
 .main-swiper {
   position: relative;
   height: 234px;
-  margin-bottom: 40px;
+  width: 770px;
+}
+
+.mainDesktopSwiper {
+  overflow: unset;
 }
 
 .swiper {
