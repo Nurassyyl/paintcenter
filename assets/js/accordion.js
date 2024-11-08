@@ -24,6 +24,8 @@ document.querySelectorAll(".steps-accordion-head").forEach((el) => {
   })
 })
 
+document.querySelector('.questions-accordion-desc').style.maxHeight = document.querySelector('.questions-accordion-desc').scrollHeight + "px";
+
 document.querySelectorAll(".questions-accordion-head").forEach((el) => {
   el.addEventListener('click', () => {
     let content = el.nextElementSibling;

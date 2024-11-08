@@ -23,3 +23,18 @@ menuLinkBtn.addEventListener('click', () => {
 submenuCloseBtn.addEventListener('click', () => {
   subMenu.classList.remove("active");
 })
+
+// document.querySelector(".nav-main__submenu").addEventListener('mouseover', (e) => {
+//   if (e.type == 'mouseover') {
+//     document.querySelector(".submenu").style.transform = "translate(-50%, 0)";
+//     document.querySelector(".submenu").style.transform = "scale(1) translate(-50%, 0)";
+//   }
+// })
+
+// document.querySelector(".nav-main__submenu").addEventListener('mouseout', (e) => {
+//   if (e.type == 'mouseout') {
+//     // document.querySelector(".submenu").style.transform = "rotateZ(" + 90 + "deg)";
+//     // document.querySelector(".submenu").style.transform = "translate(-50%, 0)";
+//     document.querySelector(".submenu").style.transform = "scale(0) translate(-50%, 0)";
+//   }
+// })
